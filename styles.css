@@ -1,0 +1,39 @@
+/*Barra superior*/
+
+.contenedor{
+    /*background-color: rgb(222, 37, 37);*/
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 60px;
+}
+.contenedor div{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    border: 1px solid black;
+}
+
+h3{
+    margin-top: 5px;
+}
+
+.encabezado{
+    background-color: rgb(222, 37, 37);
+}
+
+
+/* Sección resultado*/
+
+.resultado{
+    border: 20px solid rgb(1, 46, 72);
+    height: 100px;
+}
+
+/* Sección botones*/
+
+.btn-dark{
+    background-color: rgb(1, 46, 72);
+    width: 50px;
+
+}
+
