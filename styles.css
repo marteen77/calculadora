@@ -1,7 +1,12 @@
-/*Barra superior*/
+body{
+    background-color: gainsboro;
+}
 
+
+/*Barra superior*/
+/*
 .contenedor{
-    /*background-color: rgb(222, 37, 37);*/
+    
     color: white;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -26,17 +31,17 @@ h3{
 
 
 /* Sección resultado*/
-
+/*
 .resultado{
     border: 20px solid rgb(1, 46, 72);
     height: 100px;
 }
 
 /* Sección botones*/
-
+/*
 .btn-dark{
     background-color: rgb(1, 46, 72);
     width: 50px;
 
 }
-
+*/
