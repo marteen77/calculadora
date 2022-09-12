@@ -14,97 +14,166 @@
 </head>
 
 <body>
-    <div class="container encabezado w-50">
-        <div class="d-flex">
-            <div>
-                <h3>Calculadora</h3>
-            </div>
-            <div class="contenedor d-flex">
-                <div class="twitter">Twitter</div>
-                <div class="facebook">Facebook</div>
-                <div class="instagram">Instagram</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container descripcion">
-
-    </div>
-    <div class="container contenedorGeneral w-50 mt-3">
-        <section class="container">
-            <div class="calcSuperior">
-                <div class="input-group mb-3">
-
-                    <input type="text" class="form-control resultado" placeholder="Tu Resultado"
-                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="container">
-                <div class="d-flex justify-content-between fila1">
-                    <button type="button" class="btn btn-dark">(</button>
-                    <button type="button" class="btn btn-dark">)</button>
-                    <button type="button" class="btn btn-dark">x!</button>
-                    <button type="button" class="btn btn-dark">x²</button>
-                    <button type="button" class="btn btn-dark">√</button>
-                    <button type="button" class="btn btn-dark">√</button>
-                </div>
-                <div class="d-flex justify-content-between mt-3">
-                    <button type="button" class="btn btn-dark">sin</button>
-                    <button type="button" class="btn btn-dark">cos</button>
-                    <button type="button" class="btn btn-dark">tg</button>
-                    <button type="button" class="btn btn-dark">x³</button>
-                    <button type="button" class="btn btn-dark">∛</button>
-                    <button type="button" class="btn btn-dark">xⁿ</button>
-                </div>
-                <div class="d-flex justify-content-between mt-3">
-                    <button type="button" class="btn btn-dark">1</button>
-                    <button type="button" class="btn btn-dark">2</button>
-                    <button type="button" class="btn btn-dark">3</button>
-                    <button type="button" class="btn btn-dark">/</button>
-                    <button type="button" class="btn btn-dark">%</button>
-                    <button type="button" class="btn btn-dark">ln</button>
-                </div>
-                <div class="d-flex justify-content-between mt-3">
-                    <button type="button" class="btn btn-dark">4</button>
-                    <button type="button" class="btn btn-dark">5</button>
-                    <button type="button" class="btn btn-dark">6</button>
-                    <button type="button" class="btn btn-dark">*</button>
-                    <button type="button" class="btn btn-dark">log</button>
-                    <button type="button" class="btn btn-dark">e</button>
-                </div>
+    <div class="grid-layout">
+        <div class="caja1">
+            <div class="container encabezado">
                 <div class="d-flex">
-                    <div class="d-flex justify-content-between mt-3">
-                        <div class="col">
-                            <button type="button" class="btn btn-dark">7</button>
-                            <button type="button" class="btn btn-dark mt-3">.</button>
-                        </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-dark">8</button>
-                            <button type="button" class="btn btn-dark mt-3">0</button>
-                        </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-dark">9</button>
-                            <button type="button" class="btn btn-dark mt-3">π</button>
-                        </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-dark">-</button>
-                            <button type="button" class="btn btn-dark mt-3">+</button>
-                        </div>
-                       
-                        <div class="col">
-                            <button type="button" class="btn btn-dark">AC</button>
-                            <button type="button" class="btn btn-dark mt-3">MR</button>
-                        </div>
-                        
-                        <button type="button" class="btn btn-dark">=</button>
+                    <div>
+                        <h4>Calculadora</h4>
+                    </div>
+                    <div class="contenedor d-flex">
+                        <div class="redes twitter">Twitter</div>
+                        <div class="redes facebook">Facebook</div>
+                        <div class="redes instagram">Instagram</div>
                     </div>
                 </div>
-
             </div>
-        </section>
-    </div>
-</body>
+        </div>
+        <div class="caja2">
+            <div class="input-group">
+                <input type="text" class="form-control resultado" placeholder="Tu Resultado">
+            </div>
+        </div>
+        <div class="grid caja3">
+            <button type="button" id="abparen" class="btn btn-dark">(</button>
+        </div>
 
-</html>
+        <div class="grid caja4">
+            <button type="button" id="cerrparen" class="btn btn-dark">)</button>
+        </div>
+
+        <div class="grid caja5">
+            <button type="button" id="factorial" class="btn btn-dark">x!</button>
+        </div>
+
+        <div class="grid caja6">
+            <button type="button" id="xcuadrado" class="btn btn-dark">x²</button>
+        </div>
+
+        <div class="grid caja7">
+            <button type="button" id="raiz2" class="btn btn-dark">√</button>
+        </div>
+
+
+        <div class="grid caja8">
+            <button type="button" id="raizn" class="btn btn-dark">√n</button>
+        </div>
+
+        <div class="grid caja9">
+            <button type="button" id="sin" class="btn btn-dark">sin</button>
+        </div>
+
+        <div class="grid caja10">
+            <button type="button" id="cos" class="btn btn-dark">cos</button>
+        </div>
+
+        <div class="grid caja11">
+            <button type="button" id="tg" class="btn btn-dark">tg</button>
+        </div>
+
+        <div class="grid caja12">
+            <button type="button" id="xcubo" class="btn btn-dark">x³</button>
+        </div>
+
+        <div class="grid caja13">
+            <button type="button" id="raiz3" class="btn btn-dark">∛</button>
+        </div>
+
+        <div class="grid caja14">
+            <button type="button" id="xalan" class="btn btn-dark">xⁿ</button>
+        </div>
+
+        <div class="grid caja15">
+            <button type="button"id="uno" class="btn btn-dark">1</button>
+        </div>
+
+        <div class="grid caja16">
+            <button type="button" id="dos" class="btn btn-dark">2</button>
+        </div>
+
+        <div class="grid caja17">
+            <button type="button" id="tres" class="btn btn-dark">3</button>
+        </div>
+
+        <div class="grid caja18">
+            <button type="button" id="barra" class="btn btn-dark">/</button>
+        </div>
+
+        <div class="grid caja19">
+            <button type="button" id="porciento" class="btn btn-dark">%</button>
+        </div>
+
+        <div class="grid caja20">
+            <button type="button" id="logn" class="btn btn-dark">ln</button>
+        </div>
+
+        <div class="grid caja21">
+            <button type="button" id="cuatro" class="btn btn-dark">4</button>
+        </div>
+
+        <div class="grid caja22">
+            <button type="button" id="cinco" class="btn btn-dark">5</button>
+        </div>
+
+        <div class="grid caja23">
+            <button type="button" id="seis" class="btn btn-dark">6</button>
+        </div>
+
+        <div class="grid caja24">
+            <button type="button" id="por" class="btn btn-dark">*</button>
+        </div>
+
+        <div class="grid caja25">
+            <button type="button" id="log" class="btn btn-dark">log</button>
+        </div>
+
+        <div class="grid caja26">
+            <button type="button" id="e" class="btn btn-dark">e</button>
+        </div>
+
+        <div class="grid caja27">
+            <button type="button" id="siete" class="btn btn-dark">7</button>
+        </div>
+
+        <div class="grid caja28">
+            <button type="button" id="ocho" class="btn btn-dark">8</button>
+        </div>
+
+        <div class="grid caja29">
+            <button type="button" id="nueve" class="btn btn-dark">9</button>
+        </div>
+
+        <div class="grid caja30">
+            <button type="button" id="menos" class="btn btn-dark">-</button>
+        </div>
+
+        <div class="grid caja31">
+            <button type="button" id="ac" class="btn btn-dark">AC</button>
+        </div>
+
+        <div class="grid caja32">
+            <button type="button" id="igual" class="btn btn-danger">=</button>
+        </div>
+
+        <div class="grid caja33">
+            <button type="button" id="punto" class="btn btn-dark">.</button>
+        </div>
+
+        <div class="grid caja34">
+            <button type="button" id="cero" class="btn btn-dark">0</button>
+        </div>
+
+        <div class="grid caja35">
+            <button type="button" id="pi" class="btn btn-dark">π</button>
+        </div>
+
+        <div class="grid caja36">
+            <button type="button" id="mas" class="btn btn-dark">+</button>
+        </div>
+
+        <div class="grid caja37">
+            <button type="button" id="MR" class="btn btn-dark">MR</button>
+        </div>
+
+
+    </div>
