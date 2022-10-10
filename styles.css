@@ -49,9 +49,17 @@ font-size:smaller ;
     margin: 5px 3px 10px 3px;
 }
 
-.resultado{
-    height: 80px;
+.visor{
+    height: 50px;
     border: 2px solid rgb(1, 34, 61);
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+#resultado{
+    margin-top: 5px;
+    margin-left: 3px;
 }
 .caja32{
     grid-column: 6/7;
